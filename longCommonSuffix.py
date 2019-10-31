@@ -11,7 +11,6 @@ class Solution:
                 if i == 0 or j == 0:
                     commonSub[i][j] = ""
                 elif X[i - 1] == Y[j - 1]:
-                    # commonSub[i][j] = commonSub[i - 1][j - 1] + 1
                     commonSub[i][j] = commonSub[i - 1][j - 1] + X[i-1]
                     res = max(res, commonSub[i][j], key = len)
                 else:
