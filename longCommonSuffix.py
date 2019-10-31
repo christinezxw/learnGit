@@ -2,7 +2,6 @@ class Solution:
     def commonSub(self, X, Y):
         m = len(X)
         n = len(Y)
-        # commonSub = [[0 for _ in range(n + 1)] for _ in range(m + 1)]
         commonSub = [["" for _ in range(n + 1)] for _ in range(m + 1)]
         res = ""
         # sub = ""
