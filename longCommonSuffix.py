@@ -5,7 +5,7 @@ class Solution:
         commonSub = [["" for _ in range(n + 1)] for _ in range(m + 1)]
         res = ""
         # sub = ""
-
+        #for git test
         for i in range(m + 1):
             for j in range(n + 1):
                 if i == 0 or j == 0:
